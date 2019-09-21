@@ -14,13 +14,18 @@ const sortByOptions = {
 // To iterate over the sortByOptions keys
 // Explain what this function is doing
 // Task for tomorrow
+// We iterate over the keys of sortByOptions and then use map with a callBack function sortByOptions
+// This map function iterates over the function one by one
+// Instead of us calling the method three times, the map function runs once for each entry in our original array
+// Then it returns the value one by One
 class SearchBar extends React.Component {
     renderSortByOptions(){
         return Object.keys(sortByOptions).map(sortByOption => { 
-            let sortByOptionValue = sortByOptions[sortByOptions];
+            let sortByOptionValue = sortByOptions[sortByOption];
             return <li key={sortByOptionValue}> {sortByOption} </li>
         });
         }
+    
     render(){
         return(
             <div className="SearchBar">
