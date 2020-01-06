@@ -1,6 +1,7 @@
 # react_app_restaurants
+React app: Search for a specific type of business in your town (powered with the YELP API).
 
-https://user-images.githubusercontent.com/49861247/58259167-b0f87380-7d7c-11e9-8a2d-e1c15e1b1175.png
+![0](https://user-images.githubusercontent.com/49861247/58259167-b0f87380-7d7c-11e9-8a2d-e1c15e1b1175.png)
 
 This project was bootstrapped with Create React App.
 
